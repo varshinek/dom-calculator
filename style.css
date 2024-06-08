@@ -1,0 +1,77 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(182, 245, 245);
+}
+.cal
+{
+    border: 2px solid;
+}
+#key
+{
+    display: grid;
+    grid-template-columns: repeat(4, 5.3em);
+    width: 355px;
+    height: 450px;    
+}
+#column
+{
+    padding: 0px 0px 0px 0px;
+}
+.button
+{
+    width: 100px;
+    height: 90px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.button1
+{
+    width: 100px;
+    height: 90px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+
+}
+.button2
+{
+    width: 100px;
+    height: 90px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.button3
+{
+    width: 100px;
+    height: 90px;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    font-size: 40px;
+}
+#result
+{
+    width: 350px;
+    border: none;
+    outline: none;
+    height: 90px;
+    font-size: 25px;
+    text-align: right;
+}
+button:hover
+{
+    background-color: rgb(181, 180, 178);
+}
+button:active
+{
+    background-color: rgb(217, 216, 215);
+}
+
